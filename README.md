@@ -1,2 +1,2 @@
 # PICalc
-Single and Multithreaded examples in Java
+Simple single and multithreaded examples in Java
