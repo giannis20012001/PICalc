@@ -32,7 +32,7 @@
                     <configuration>
                         <archive>
                             <manifest>
-                                <mainClass>org.lumi.picalc.MainMultiThreadedPICalc</mainClass>
+                                <mainClass>org.lumi.picalc.errorcalc.MainMultiThreadedPICalc</mainClass>
                             </manifest>
                         </archive>
                         <descriptorRefs>

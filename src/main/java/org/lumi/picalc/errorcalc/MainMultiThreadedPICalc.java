@@ -1,4 +1,4 @@
-package org.lumi.picalc;
+package org.lumi.picalc.errorcalc;
 
 import java.util.ArrayList;
 import java.util.List;
@@ -10,7 +10,7 @@ public class MainMultiThreadedPICalc {
     public static void main(String[] args) {
         ThreadGroup tg = new ThreadGroup("main");
         //int initialNP = Runtime.getRuntime().availableProcessors();
-        int np = 0;
+        int np = Runtime.getRuntime().availableProcessors();
         int i, ns=200;
 
         List<MultiThreadSimulation> sims = new ArrayList<>();
@@ -22,7 +22,7 @@ public class MainMultiThreadedPICalc {
 
         i=0;
         while (i<sims.size()) {
-            np = Runtime.getRuntime().availableProcessors();
+            //np = Runtime.getRuntime().availableProcessors();
 			/*if (np > initialNP) {
 
             }*/

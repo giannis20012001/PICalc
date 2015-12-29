@@ -1,4 +1,4 @@
-package org.lumi.picalc;
+package org.lumi.picalc.simpleexamp;
 
 import java.util.concurrent.ArrayBlockingQueue;
 import java.util.concurrent.Executors;

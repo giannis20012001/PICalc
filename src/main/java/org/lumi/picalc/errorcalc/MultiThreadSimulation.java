@@ -1,4 +1,4 @@
-package org.lumi.picalc;
+package org.lumi.picalc.errorcalc;
 
 import java.util.Random;
 

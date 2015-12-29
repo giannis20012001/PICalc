@@ -1,4 +1,4 @@
-package org.lumi.picalc;
+package org.lumi.picalc.simpleexamp;
 
 /**
  * Created by John Tsantilis (A.K.A lumi) on 22/12/2015.
