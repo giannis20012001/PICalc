@@ -9,9 +9,8 @@ import java.util.List;
 public class MainMultiThreadedPICalc {
     public static void main(String[] args) {
         ThreadGroup tg = new ThreadGroup("main");
-        //int initialNP = Runtime.getRuntime().availableProcessors();
         int np;
-        int i, ns=65;
+        int i, ns=84;
 
         List<MultiThreadSimulation> sims = new ArrayList<>();
 

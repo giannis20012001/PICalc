@@ -54,7 +54,7 @@ public class MultiThreadSimulation extends Thread {
 
         result = 4*count/(double)(nk*j);
         error = 100*Math.abs(result-Math.PI)/Math.PI;
-        System.out.printf(" nk = %d:\t pi = %g,\t error = %.2g%%\n", nk,result,error);
+        //System.out.printf(" nk = %d:\t pi = %g,\t error = %.2g%%\n", nk,result,error);
 
     }
 
