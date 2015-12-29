@@ -11,7 +11,7 @@ public class MainMultiThreadedPICalc {
         ThreadGroup tg = new ThreadGroup("main");
         //int initialNP = Runtime.getRuntime().availableProcessors();
         int np;
-        int i, ns=100;
+        int i, ns=65;
 
         List<MultiThreadSimulation> sims = new ArrayList<>();
 
