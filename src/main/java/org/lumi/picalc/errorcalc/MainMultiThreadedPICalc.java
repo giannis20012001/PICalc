@@ -10,8 +10,8 @@ public class MainMultiThreadedPICalc {
     public static void main(String[] args) {
         ThreadGroup tg = new ThreadGroup("main");
         //int initialNP = Runtime.getRuntime().availableProcessors();
-        int np = Runtime.getRuntime().availableProcessors();
-        int i, ns=200;
+        int np;
+        int i, ns=100;
 
         List<MultiThreadSimulation> sims = new ArrayList<>();
 
@@ -22,11 +22,7 @@ public class MainMultiThreadedPICalc {
 
         i=0;
         while (i<sims.size()) {
-            //np = Runtime.getRuntime().availableProcessors();
-			/*if (np > initialNP) {
-
-            }*/
-
+            np = Runtime.getRuntime().availableProcessors();
             /*do we have available CPUs?*/
             if (tg.activeCount()<np) {
                 MultiThreadSimulation sim = sims.get(i);
