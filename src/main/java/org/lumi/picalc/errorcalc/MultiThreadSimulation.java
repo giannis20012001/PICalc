@@ -6,8 +6,8 @@ import java.util.Random;
  * Created by John Tsantilis (A.K.A lumi) on 22/12/2015.
  */
 public class MultiThreadSimulation extends Thread {
-    protected double result;			/*result*/
-    protected double error;				/*error in percent*/
+    protected double result;/*result*/
+    protected double error;/*error in percent*/
 
     protected int nk;
     Random rnd;

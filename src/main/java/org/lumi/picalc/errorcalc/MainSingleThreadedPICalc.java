@@ -6,9 +6,9 @@ package org.lumi.picalc.errorcalc;
 public class MainSingleThreadedPICalc {
     public static void main(String[] args) {
         double sum = 0;
-        int ns=1000;   /*number of computations*/
+        int ns=1000;/*number of computations*/
 
-                /*sample 50,000 x 1,000 points*/
+        /*sample 50,000 x 1,000 points*/
         SingleThreadSimulation sim = new SingleThreadSimulation(50000);
 
         long start = System.nanoTime();
