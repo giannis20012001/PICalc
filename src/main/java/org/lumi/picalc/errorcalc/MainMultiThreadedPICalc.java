@@ -19,6 +19,8 @@ public class MainMultiThreadedPICalc {
         for (i=0;i<ns;i++)
             sims.add(new MultiThreadSimulation((50000),"PI" + i, tg));
 
+        System.out.printf("%s%d\n","The repetition number is: ", ns);
+        System.out.printf("%s%d\n","The number of cores is: ", Runtime.getRuntime().availableProcessors());
         i=0;
         while (i<sims.size()) {
             np = Runtime.getRuntime().availableProcessors();
