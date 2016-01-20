@@ -6,8 +6,8 @@ package org.lumi.picalc.errorcalc;
 
 
 public class SingleThreadSimulation {
-    protected double result;			/*result*/
-    protected double error;				/*error in percent*/
+    protected double result;/*result*/
+    protected double error;/*error in percent*/
 
     protected int nk;
 
@@ -36,7 +36,7 @@ public class SingleThreadSimulation {
 
         for (i = 0; i < nk; i++) {
             for (j = 0; j < 1000; j++) {
-                    /*select random point*/
+                /*select random point*/
                 x = Math.random();
                 y = Math.random();
 
