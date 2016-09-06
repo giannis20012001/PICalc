@@ -10,7 +10,7 @@ public class MainMultiThreadedPICalc {
     public static void main(String[] args) {
         ThreadGroup tg = new ThreadGroup("main");
         int np;
-        int i, ns=80;
+        int i, ns=85;
 
         List<MultiThreadSimulation> sims = new ArrayList<>();
 
